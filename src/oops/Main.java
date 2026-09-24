@@ -36,14 +36,31 @@ public class Main {
 		 
 		 // encapsulation
 		 
-		 Bank_encapsulation bank= new Bank_encapsulation(2336,89,908);
-		 System.out.println("accno:"+bank.getAccno()+",balance:"+bank.getBalance()
-	        +",pin:"+bank.getPin());
-		 bank.setAccno(1234);
-        bank.setBalance(2000);
-        bank.setPin(3426);
-        System.out.println("accno:"+bank.getAccno()+",balance:"+bank.getBalance()
-        +",pin:"+bank.getPin());
+//		 Bank_encapsulation bank= new Bank_encapsulation(2336,89,908);
+//		 System.out.println("accno:"+bank.getAccno()+",balance:"+bank.getBalance()
+//	        +",pin:"+bank.getPin());
+//		 bank.setAccno(1234);
+//        bank.setBalance(2000);
+//        bank.setPin(3426);
+//        System.out.println("accno:"+bank.getAccno()+",balance:"+bank.getBalance()
+//        +",pin:"+bank.getPin());
+        
+		 System.out.println("abstraction class");
+		 ExamReg_abstract examreg=new Subexamreg_implement(); 
+		 examreg.Reg();
+		 examreg.hide();
+        
+		 
+        
+		 Interfaces interfaces= new Interfacesimpl();
+		 interfaces.add();
+	interfaces.run();
+	Interfaces.hello();
+	
+		 
+		
+		 Hide hide = new Interfacesimpl();
+		 hide.team("hello student");
 		 
 	}
 
