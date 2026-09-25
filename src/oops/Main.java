@@ -44,6 +44,8 @@ public class Main {
 //        bank.setPin(3426);
 //        System.out.println("accno:"+bank.getAccno()+",balance:"+bank.getBalance()
 //        +",pin:"+bank.getPin());
+		 
+		 Bank_encapsulation h= new Bank_encapsulation();
         
 		 System.out.println("abstraction class");
 		 ExamReg_abstract examreg=new Subexamreg_implement(); 
@@ -54,8 +56,8 @@ public class Main {
         
 		 Interfaces interfaces= new Interfacesimpl();
 		 interfaces.add();
-	interfaces.run();
-	Interfaces.hello();
+	    interfaces.run();
+	    Interfaces.hello();
 	
 		 
 		

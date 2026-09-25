@@ -10,12 +10,14 @@ private int count[]= {89,78};
 
 //=> set =>method =.particular, constructor => all give, get
 
+// parameter constructor
 public Bank_encapsulation(long accno,double balance,int pin) {
  this.accno=accno;
  this.balance=balance;
  this.pin=pin;
 }
 
+//defualt
 public Bank_encapsulation() {
 	
 }
