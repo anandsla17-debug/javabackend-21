@@ -10,6 +10,7 @@ public class Conditions {
 		Ifelseandswitch ifelseandswitch= new Ifelseandswitch();
 //		ifelseandswitch.ifelse();
 		ifelseandswitch.switchcase();
+		ifelseandswitch.findindex("hello");
 		
 		
 	}

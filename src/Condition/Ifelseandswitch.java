@@ -116,4 +116,12 @@ public void switchcase() {
 	}while(choice!=0);
 	
 }
+
+void findindex(String index) {
+	 Scanner sc= new Scanner(System.in);
+	System.out.println("what index you need give:");
+	int indexno=sc.nextInt();
+	System.out.println("String index assci:"+index.codePointAt(indexno));
+	System.out.println("String index:"+index.charAt(indexno));
+}
 }

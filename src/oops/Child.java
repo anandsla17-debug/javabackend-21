@@ -9,6 +9,7 @@ public class Child extends Parent{
 		super(a1, b2);
 		
 	}
+	
 	Child (int d1,int d2,int d3){
 		super(d1, d2, d3);
 	}
@@ -18,6 +19,9 @@ Scanner sc= new Scanner(System.in);
 		 
 		System.out.println("what index you need give:");
 		int indexno=sc.nextInt();
+		System.out.println("String index assci:"+index.codePointAt(indexno));
 		System.out.println("String index:"+index.charAt(indexno));
 	}
+	
+
 }
