@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Ternary {
  Ternary() {
+
 	 Scanner sc= new Scanner(System.in);
 		System.out.println("enter your age");
 		int age=sc.nextInt();
