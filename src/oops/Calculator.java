@@ -3,10 +3,14 @@ package oops;
 public class Calculator {
 // add ,sub, div,multi
 	
-	Calculator(int data1,int data2){
+	public Calculator(int data1,int data2){
 		System.out.println("constructor:"+(data1+data2));
 	}
 	
+	public Calculator() {
+		// TODO Auto-generated constructor stub
+	}
+
 	int add( int a,int b) {
 		return a+b;
 	}

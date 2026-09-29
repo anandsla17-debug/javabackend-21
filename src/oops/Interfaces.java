@@ -4,7 +4,7 @@ package oops;
 
   public void add(); //
 
-   String name="anand";
+  final static public String name="anand";
   private void  team() {
 	  System.out.println("team"+name);
   }

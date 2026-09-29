@@ -9,9 +9,9 @@ public class Conditions {
 		
 		Ifelseandswitch ifelseandswitch= new Ifelseandswitch();
 //		ifelseandswitch.ifelse();
-		ifelseandswitch.switchcase();
-		ifelseandswitch.findindex("hello");
-		
+//		ifelseandswitch.switchcase();
+//		ifelseandswitch.findindex("hello");
+		ifelseandswitch.loop();
 		
 	}
 }

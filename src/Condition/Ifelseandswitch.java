@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ifelseandswitch {
 	
 public void ifelse() {
+	
 	// if else, switch
 	
 			// 10 th => 11 th=> bio, cs,ac,pure science,business maths, history
@@ -117,6 +118,7 @@ public void switchcase() {
 	
 }
 
+
 void findindex(String index) {
 	 Scanner sc= new Scanner(System.in);
 	System.out.println("what index you need give:");
@@ -124,4 +126,76 @@ void findindex(String index) {
 	System.out.println("String index assci:"+index.codePointAt(indexno));
 	System.out.println("String index:"+index.charAt(indexno));
 }
+
+
+public void loop()
+{
+	for(int i=0;i<=10;i++) {
+		
+		if(i==5) {
+			continue;
+		}
+		
+		if(i==9) {
+			break;
+		}
+	System.out.println("repeat"+i);
+	System.out.println("thank you");
+	
+	}
+	
+	int i=10;
+	while (i<20) {
+		if(i%2!=0) {
+		i++;
+			continue;
+			
+		}
+i++;
+		System.out.println("i while:"+i);
+		
+	}
+	
+	int team=0;
+	while(team<20) {
+		
+	
+		System.out.println("team"+(team++));
+		
+	}
+	
+	int increament=0;
+	while(increament++<10) {
+		System.out.println("in"+increament);
+	}
+	int Decrement=10;
+	while(Decrement-->0) {
+		System.out.println("d"+Decrement);
+	}
+	
+	// d => 10 to 1 => 6 ( not come)
+
+	
+	int[] arr= {10,20,30,40};
+//	System.out.println(arr[2]);
+	for(int start=0;start<arr.length;start++) {
+		System.out.println("normal for"+arr[start]);
+	}
+	
+	// arr en for loop
+	for(int arrs:arr) {
+		System.out.println(arrs);
+	}
+	
+	String[] s1= {"pen","pencil","scale"};
+	
+	for(String s2:s1) {
+		System.out.println(s2);
+	}
+	
+	
+	
+	
+}
+
 }
