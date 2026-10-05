@@ -35,9 +35,13 @@ System.out.println(team.equals("    He&lo world"));
 String s1=" ";
 System.out.println("b"+s1.isBlank());// letter
 System.out.println("e"+s1.isEmpty()); // space and letter
-String matchs="Student";
-System.out.println(matchs.equals("Student"));
-//System.out.println(matchs.matches("Student")); regrex
+String matchs = "anand@gmail.com";
+
+System.out.println(matchs.equals("Student")); 
+// false
+
+System.out.println(matchs.matches("^[a-z0-9]+@gmail\\.com$"));
+// true
 
 }
 
