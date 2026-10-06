@@ -43,6 +43,28 @@ System.out.println(matchs.equals("Student"));
 System.out.println(matchs.matches("^[a-z0-9]+@gmail\\.com$"));
 // true
 
+//math
+System.out.println(Math.PI);
+System.out.println(Math.abs(-9));// neg to postive
+System.out.println(Math.floor(5.1));
+System.out.println(Math.round(3.4));
+System.out.println(Math.ceil(5.1));
+System.out.println(Math.floor(Math.random()*5));
+System.out.println(Math.min(7.9, 8.8));
+System.out.println(Math.max(20, 5));
+System.out.println(Math.E);
+System.out.println(Math.powExact(5, 4));
+System.out.println(Math.pow(5.0, 10.0));
+
+
+String replaceeg="123456 is my mobile";
+System.out.println(replaceeg.replace("123","one two three"));// replace data based replace
+System.out.println(replaceeg.replaceAll("[0-9]","onetwothree..."));// regrex replaceall
+
+
+
+
+
 }
 
 }
