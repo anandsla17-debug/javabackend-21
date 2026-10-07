@@ -1,6 +1,7 @@
 package Collection;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class List {
 
@@ -26,8 +27,11 @@ public class List {
 		System.out.println(arraylist.isEmpty());
 		System.out.println(arraylist.indexOf(20));
 		System.out.println(arraylist.lastIndexOf(20));
-		arraylist.clear();
+//		arraylist.clear();
 		System.out.println(arraylist);
+		
+		HashSet<Integer> set = new HashSet<Integer>(arraylist);
+		System.out.println(set);
 		
 	}
 	
