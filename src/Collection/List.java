@@ -2,6 +2,7 @@ package Collection;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.LinkedList;
 
 public class List {
 
@@ -64,12 +65,20 @@ public class List {
 		}
 	}
 	
-	
+	public void Linkedlist() {
+		LinkedList<Integer> data= new LinkedList<Integer>();
+		data.add(10);
+		data.set(0, 20);
+		data.add(30);
+		data.remove(1);
+		System.out.println(data);
+	}
 	
 	public static void main(String[] args) {
 		List list= new List();
 		list.Arraylist();
 		list.studentarraylist();
+		list.Linkedlist();
 	}
 	
 }
