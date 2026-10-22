@@ -5,7 +5,7 @@ public static void main(String[] args) {
 	Thread my= new Thread(()->{
 		System.out.println("first");
 	});
-//	my.setPriority(Thread.MIN_PRIORITY);
+	my.setPriority(1);
 	
 	Runnable myinterface= new Runnable() {
 		
@@ -16,8 +16,15 @@ public static void main(String[] args) {
 		}
 	};
 	Thread my1= new Thread(myinterface);
-//	my1.setPriority(Thread.MAX_PRIORITY);
+	my1.setPriority(2);
+	
+	Thread th1= new Thread(()->{
+		System.out.println("third");
+	});
+	th1.setPriority(3);
+	th1.start();
 	my.start();
 	my1.start();
+
 }
 }
