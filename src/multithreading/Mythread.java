@@ -1,6 +1,8 @@
 package multithreading;
 
 public class Mythread extends Thread {
+	
+
 	void loop(int value) {
 		for(int i=1; i<=value;i++) {
 			
